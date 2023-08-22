@@ -55,9 +55,9 @@
 </p>
 
 ## **Languages 🌐**
-- 🇬🇧 English
-- 🇫🇷 French
-- 🇹🇳 Arabic
+- <img src="https://cdn-icons-png.flaticon.com/512/317/317348.png" height="20px" alt="English" /> English
+- <img src="https://cdn-icons-png.flaticon.com/512/317/317182.png" height="20px" alt="French" /> French
+- <img src="https://cdn-icons-png.flaticon.com/512/317/317340.png" height="20px" alt="Arabic" /> Arabic
 
 ## **Professional Experience 💼**
 ### **Software Engineer at VERMEG for Banking & Insurance Software**
