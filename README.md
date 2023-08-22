@@ -2,7 +2,7 @@
 # Hey there! 🌟 I'm Ghassen BARGOUGUI 👨‍💻
 
 <!-- TechStack -->
-![techstack](https://gcdnb.pbrd.co/images/6ddZqKsFlQZo.png)
+![techstack](https://gcdnb.pbrd.co/images/RrmCnWUtSdLv.jpg)
 
 <!-- Short Introduction -->
 ## **About Me 🌍**
