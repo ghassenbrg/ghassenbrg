@@ -69,7 +69,7 @@
 ... <!-- Add all the tasks and achievements -->
 
 ## **Education 🎓**
-- **National Engineer Degree in Software Engineering** from ESPRIT, 09/2019 - 07/2023, Tunis, Tunisie.
+- **Engineer's Degree in Software Engineering** from ESPRIT, 09/2019 - 07/2023, Tunis, Tunisie.
 - **Bachelor's in Computer Science** from ISIMM, 09/2015 - 06/2019, Monastir, Tunisie.
 
 ## **Connect with Me! 📲**
