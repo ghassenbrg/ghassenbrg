@@ -61,7 +61,7 @@
 
 ## **Professional Experience 💼**
 ### **Software Engineer at CBTW**
-*9/2024 - Present, Luxembourg, Luxembourg*
+*09/2024 - Present, Luxembourg, Luxembourg*
 ... <!-- Add all the tasks and achievements -->
 
 ### **Software Engineer at VERMEG for Banking & Insurance Software**
