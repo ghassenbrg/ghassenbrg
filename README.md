@@ -60,8 +60,12 @@
 - <img src="https://cdn-icons-png.flaticon.com/512/317/317340.png" height="20px" alt="Arabic" /> Arabic
 
 ## **Professional Experience 💼**
+### **Software Engineer at CBTW**
+*9/2024 - Present, Luxembourg, Luxembourg*
+... <!-- Add all the tasks and achievements -->
+
 ### **Software Engineer at VERMEG for Banking & Insurance Software**
-*10/2019 - Present, Tunis, Tunisie*
+*10/2019 - 08/2024, Tunis, Tunisie*
 ... <!-- Add all the tasks and achievements -->
 
 ### **Full Stack Developer Intern at Proxym Group**
