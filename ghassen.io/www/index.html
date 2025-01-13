@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ghassen Bargougui - Final Interactive Resume</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&family=Poppins:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome (Icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-..."
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <h1 id="nav-brand"><i class="fas fa-terminal"></i> Interactive Resume</h1>
+    <nav>
+      <ul id="nav-links">
+        <!-- The nav item text is dynamically injected from script.js -->
+      </ul>
+    </nav>
+    <div class="lang-buttons">
+      <button class="lang-button" onclick="setLanguage('en')">EN</button>
+      <button class="lang-button" onclick="setLanguage('fr')">FR</button>
+      <button class="lang-button" onclick="setLanguage('jp')">JP</button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero-section">
+    <div class="hero-content">
+      <!-- Replace with your actual image path -->
+      <img src="linkedin_pic.jpg" alt="Profile Picture" />
+      <h2 id="hero-name"></h2>
+      <p id="hero-location"></p>
+      <p>
+        <i class="fas fa-phone-alt"></i> <span id="hero-phone"></span><br/>
+        <i class="fas fa-envelope"></i>
+        <a href="#" style="color: var(--accent-color);" id="hero-email"></a>
+      </p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/ghassenbrg" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/ghassenBrg" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="hero-buttons">
+        <button class="btn-download" id="download-btn">
+          <i class="fas fa-file-download"></i> <span id="download-btn-text">Download CV</span>
+        </button>
+        <button class="btn-contact">
+          <i class="fas fa-arrow-down"></i>
+          <a href="#about-section" id="scroll-down-text" style="color:#fff; text-decoration:none;">
+            Scroll Down
+          </a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main id="content"></main>
+
+  <footer>
+    <span id="footer-text">© 2025 - Ghassen Bargougui</span>
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
