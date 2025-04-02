@@ -9,7 +9,7 @@ services:
       - ghassen-io-network
 
   ghassen-io-fe:
-    image: ghassenbrg/orbit-ways-ionic:1.0.0-SNAPSHOT
+    image: ghassenbrg/ghassen-io-fe:1.0.0-SNAPSHOT
     ports:
       - "80:80"
       - "443:443"
