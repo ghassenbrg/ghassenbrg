@@ -1,19 +1,19 @@
 FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 
-# Copy root app files
-COPY ./www /usr/share/nginx/html/root-app
+# Root site (ghassen.io) — if used
+COPY ./www ./root-app
 
-# Copy Orbitways app files
-COPY ../../orbit-ways-ionic/www /usr/share/nginx/html
+# OrbitWays served at /orbitways
+COPY ../../orbit-ways-ionic/www ./orbitways
 
-# Copy WatcHD.tn app files
-COPY ../../WatchHD/WATCHD.tn /usr/share/nginx/html/watchd-fe
+# WatcHD.tn served at /watchd-fe
+COPY ../../WatchHD/WATCHD.tn ./watchd-fe
 
-# Copy servindor ionic app files
-# COPY ../../servindor_mobile_app/www /usr/share/nginx/html/servindor
+# Servindor (optional)
+# COPY ../../servindor_mobile_app/www ./servindor
 
-# Copy Nginx configuration
+# Nginx config
 COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80
