@@ -2,7 +2,7 @@ FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 
 # Root site (ghassen.io) — if used
-COPY ./www ./root-app
+COPY ./www /usr/share/nginx/html
 
 # OrbitWays served at /orbitways
 COPY ../../orbit-ways-ionic/www ./orbitways
