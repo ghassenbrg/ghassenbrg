@@ -137,7 +137,7 @@
     width: 120%;
     height: 120%;
     background: url("computer_programmer_bg.jpg") no-repeat center/cover;
-    filter: brightness(0.5);
+    filter: brightness(0.2);
     animation: waveBg 40s linear infinite alternate;
     z-index: 0;
   }
@@ -175,6 +175,13 @@
   .hero-content h2 {
     font-family: var(--font-code);
     font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--accent-color);
+  }
+
+  .hero-content h3 {
+    font-family: var(--font-code);
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     color: var(--accent-color);
   }

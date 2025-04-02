@@ -67,7 +67,8 @@ function toggleProjectDetails(id) {
     en: {
       pdf: "CV_Ghassen_Bargougui_en.pdf",
       heroName: "Ghassen Bargougui",
-      heroLocation: "Luxembourg City, Luxembourg",
+      heroJob: "Software Engineer | Java Full-Stack Developer",
+      heroLocation: "Luxembourg, Luxembourg",
       heroPhone: "+352 661 120 421",
       heroEmail: "ghassen.brg16@gmail.com",
       aboutSectionTitle: "About",
@@ -226,7 +227,8 @@ function toggleProjectDetails(id) {
           items: [
             "<b>Arabic (Native)</b>",
             "<b>English (Fluent)</b>",
-            "<b>French (Fluent)</b>"
+            "<b>French (Fluent)</b>",
+            "<b>Japanese (Basic conversational proficiency)</b>"
           ]
         }
       }
@@ -236,7 +238,8 @@ function toggleProjectDetails(id) {
     fr: {
       pdf: "CV_Ghassen_Bargougui_fr.pdf",
       heroName: "Ghassen Bargougui",
-      heroLocation: "Luxembourg City, Luxembourg",
+      heroJob: "Ingénieur Logiciel | Développeur Full-Stack Java",
+      heroLocation: "Luxembourg, Luxembourg",
       heroPhone: "+352 661 120 421",
       heroEmail: "ghassen.brg16@gmail.com",
       aboutSectionTitle: "À Propos",
@@ -395,7 +398,8 @@ function toggleProjectDetails(id) {
           items: [
             "<b>Arabe (Maternelle)</b>",
             "<b>Anglais (Courant)</b>",
-            "<b>Français (Courant)</b>"
+            "<b>Français (Courant)</b>",
+            "<b>Japonais (Compétence de base)</b>"
           ]
         }
       }
@@ -405,6 +409,7 @@ function toggleProjectDetails(id) {
     jp: {
       pdf: "CV_Ghassen_Bargougui_jp.pdf",
       heroName: "ガッセン・バルグギ",
+      heroJob: "ソフトウェアエンジニア | Javaフルスタック開発者",
       heroLocation: "ルクセンブルク市、ルクセンブルク",
       heroPhone: "+352 661 120 421",
       heroEmail: "ghassen.brg16@gmail.com",
@@ -564,7 +569,8 @@ function toggleProjectDetails(id) {
           items: [
             "<b>アラビア語（母国語）</b>",
             "<b>英語（流暢）</b>",
-            "<b>フランス語（流暢）</b>"
+            "<b>フランス語（流暢）</b>",
+            "<b>日本語（基本的な会話力）</b>"
           ]
         }
       }
@@ -609,6 +615,7 @@ function toggleProjectDetails(id) {
   
     /* ============ TRANSLATE HERO DATA ============ */
     document.getElementById('hero-name').innerText = data.heroName;
+    document.getElementById('hero-job').innerText = data.heroJob;
     document.getElementById('hero-location').innerText = data.heroLocation;
     document.getElementById('hero-phone').innerText = data.heroPhone;
     const heroEmail = document.getElementById('hero-email');
