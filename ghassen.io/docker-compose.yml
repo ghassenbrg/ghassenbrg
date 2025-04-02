@@ -1,11 +1,10 @@
-version: '3.8'
 services:
   orbit-ways-be:
     image: ghassenbrg/orbit-ways-be:1.0.0-SNAPSHOT
     ports:
       - "8080:8080"
     volumes:
-      - /app/config/application.properties:/app/config/application.properties:ro # Mount the external application.properties
+      - ./config/orbit-ways-be/application.properties:/app/config/application.properties:ro
     networks:
       - ghassen-io-network
 
@@ -15,10 +14,36 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - /app/config/nginx.conf:/app/config/nginx.conf:ro
-      - /etc/letsencrypt:/etc/letsencrypt:ro # For SSL certificates
+      - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./config/certbot/www:/var/www/certbot
+      - ./config/letsencrypt:/etc/letsencrypt:ro
     networks:
       - ghassen-io-network
+    depends_on:
+      - orbit-ways-be
+
+# certbot:
+#   image: certbot/certbot
+#   container_name: certbot
+#   volumes:
+#     - ./config/certbot/www:/var/www/certbot
+#     - ./config/letsencrypt:/etc/letsencrypt
+#   command: >
+#     certonly --webroot --webroot-path=/var/www/certbot
+#     --email ghassen.brg16@gmail.com --agree-tos --no-eff-email
+#     -d ghassen.io -d www.ghassen.io
+#   networks:
+#     - ghassen-io-network
+
+  # nginx-temp:  # ← TEMPORARY container for initial Certbot validation
+  #   image: nginx:latest
+  #   ports:
+  #     - "80:80"
+  #   volumes:
+  #     - ./config/certbot/www:/var/www/certbot
+  #     - ./config/nginx/nginx-temp.conf:/etc/nginx/conf.d/default.conf:ro
+  #   networks:
+  #     - ghassen-io-network
 
 networks:
   ghassen-io-network:
