@@ -28,7 +28,7 @@ FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 
 # Root site (ghassen.io)
-COPY --from=resume-builder /my-resume/dist /usr/share/nginx/html
+COPY --from=resume-builder /my-resume/build /usr/share/nginx/html
 
 # OrbitWays served at /orbitways
 COPY --from=orbitways-builder /orbit-ways-ionic/www ./orbitways
