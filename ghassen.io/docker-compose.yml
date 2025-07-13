@@ -1,8 +1,8 @@
 services:
   orbit-ways-be:
     image: ghassenbrg/orbit-ways-be:1.0.0-SNAPSHOT
-    ports:
-      - "8080:8080"
+    # ports:
+    #   - "8080:8080"
     volumes:
       - ./config/orbit-ways-be/application.properties:/app/config/application.properties:ro
     networks:
