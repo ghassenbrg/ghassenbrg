@@ -1,55 +1,47 @@
 networks:
+  # External network created by your Traefik stack (from traefik-compose.yml)
   web:
     external: true
-  app:
+
+  # Internal network for FE <-> BE
+  ghassen-io-network:
     driver: bridge
 
 services:
   orbit-ways-be:
     image: ghassenbrg/orbit-ways-be:1.0.0-SNAPSHOT
+    # Mount a directory (Spring Boot will auto-read /config/application.properties)
     volumes:
-      - ./config/orbit-ways-be/application.properties:/app/config/application.properties:ro
-    networks: [app, web]
+      - ./config/orbit-ways-be:/config:ro
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-fsS", "http://localhost:8080/actuator/health"]
-      interval: 10s
-      timeout: 3s
-      retries: 12
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.orbit-api.rule=Host(`ghassen.io`,`www.ghassen.io`) && PathPrefix(`/orbitways/api/`)"
-      - "traefik.http.routers.orbit-api.entrypoints=websecure"
-      - "traefik.http.routers.orbit-api.tls.certresolver=le"
-      - "traefik.http.routers.orbit-api.middlewares=orbit-api-strip"
-      - "traefik.http.services.orbit-api.loadbalancer.server.port=8080"
-      - "traefik.http.middlewares.orbit-api-strip.replacepathregex.regex=^/orbitways/api/(.*)"
-      - "traefik.http.middlewares.orbit-api-strip.replacepathregex.replacement=/api/$$1"
-      - "traefik.http.routers.orbit-ws.rule=Host(`ghassen.io`,`www.ghassen.io`) && PathPrefix(`/orbitways/orbitways-websocket/`)"
-      - "traefik.http.routers.orbit-ws.entrypoints=websecure"
-      - "traefik.http.routers.orbit-ws.tls.certresolver=le"
-      - "traefik.http.routers.orbit-ws.middlewares=orbit-ws-strip"
-      - "traefik.http.services.orbit-ws.loadbalancer.server.port=8080"
-      - "traefik.http.middlewares.orbit-ws-strip.replacepathregex.regex=^/orbitways/orbitways-websocket/(.*)"
-      - "traefik.http.middlewares.orbit-ws-strip.replacepathregex.replacement=/orbitways-websocket/$$1"
+    networks:
+      - ghassen-io-network
 
   ghassen-io-fe:
     image: ghassenbrg/ghassen-io-fe:1.0.0-SNAPSHOT
+    # No host ports: Traefik terminates HTTPS and forwards to container:80
     volumes:
-      - ./site:/public:ro
-    environment:
-      SERVER_ROOT: /public
-      SERVER_FALLBACK_PAGE: /public/index.html
-      SERVER_COMPRESSION: "true"
-    networks: [app, web]
+      - ./config/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      # If your static files are NOT baked into the image, uncomment the next line:
+      # - ./site:/usr/share/nginx/html:ro
+    depends_on:
+      - orbit-ways-be
     restart: unless-stopped
+    networks:
+      - ghassen-io-network
+      - web
     labels:
       - "traefik.enable=true"
+
+      # HTTPS router for ghassen.io + www (Traefik on 443)
       - "traefik.http.routers.ghassen-io.rule=Host(`ghassen.io`,`www.ghassen.io`)"
       - "traefik.http.routers.ghassen-io.entrypoints=websecure"
       - "traefik.http.routers.ghassen-io.tls.certresolver=le"
+      # Tell Traefik to talk to port 80 inside the container (Nginx)
       - "traefik.http.services.ghassen-io.loadbalancer.server.port=80"
-      - "traefik.http.routers.redirect-http.rule=Host(`ghassen.io`,`www.ghassen.io`)"
-      - "traefik.http.routers.redirect-http.entrypoints=web"
-      - "traefik.http.routers.redirect-http.middlewares=to-https"
+
+      # HTTP -> HTTPS redirect (Traefik on 80)
+      - "traefik.http.routers.ghassen-io-redirect.rule=Host(`ghassen.io`,`www.ghassen.io`)"
+      - "traefik.http.routers.ghassen-io-redirect.entrypoints=web"
+      - "traefik.http.routers.ghassen-io-redirect.middlewares=to-https"
       - "traefik.http.middlewares.to-https.redirectscheme.scheme=https"
