@@ -34,7 +34,7 @@ services:
       - "traefik.http.middlewares.orbit-ws-strip.replacepathregex.replacement=/orbitways-websocket/$$1"
 
   ghassen-io-fe:
-    image: ghcr.io/static-web-server/static-web-server:v2
+    image: ghassenbrg/ghassen-io-fe:1.0.0-SNAPSHOT
     volumes:
       - ./site:/public:ro
     environment:
