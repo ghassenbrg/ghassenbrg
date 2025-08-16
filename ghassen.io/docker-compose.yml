@@ -1,5 +1,7 @@
+version: "3.9"
+
 networks:
-  # External network created by your Traefik stack (from traefik-compose.yml)
+  # External network created by your Traefik stack
   web:
     external: true
 
@@ -10,7 +12,7 @@ networks:
 services:
   orbit-ways-be:
     image: ghassenbrg/orbit-ways-be:1.0.0-SNAPSHOT
-    # Mount a directory (Spring Boot will auto-read /config/application.properties)
+    # Spring Boot will auto-read /config/application.properties
     volumes:
       - ./config/orbit-ways-be:/config:ro
     restart: unless-stopped
@@ -21,9 +23,9 @@ services:
     image: ghassenbrg/ghassen-io-fe:1.0.0-SNAPSHOT
     # No host ports: Traefik terminates HTTPS and forwards to container:80
     volumes:
+      # Mount your site’s nginx server config (NOT the global nginx.conf)
       - ./config/nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
-      - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      # If your static files are NOT baked into the image, uncomment the next line:
+      # If your static files are NOT baked into the image, uncomment:
       # - ./site:/usr/share/nginx/html:ro
     depends_on:
       - orbit-ways-be
@@ -33,16 +35,18 @@ services:
       - web
     labels:
       - "traefik.enable=true"
+      # Tell Traefik which network IP to use for this container
+      - "traefik.docker.network=web"
 
-      # HTTPS router for ghassen.io + www (Traefik on 443)
-      - "traefik.http.routers.ghassen-io.rule=Host(`ghassen.io`,`www.ghassen.io`)"
+      # ✅ Traefik v3: one host per Host(), combine with ||
+      - "traefik.http.routers.ghassen-io.rule=(Host(`ghassen.io`) || Host(`www.ghassen.io`))"
       - "traefik.http.routers.ghassen-io.entrypoints=websecure"
       - "traefik.http.routers.ghassen-io.tls.certresolver=le"
-      # Tell Traefik to talk to port 80 inside the container (Nginx)
+      # Traefik forwards to Nginx on port 80 inside the container
       - "traefik.http.services.ghassen-io.loadbalancer.server.port=80"
 
-      # HTTP -> HTTPS redirect (Traefik on 80)
-      - "traefik.http.routers.ghassen-io-redirect.rule=Host(`ghassen.io`,`www.ghassen.io`)"
+      # HTTP -> HTTPS redirect
+      - "traefik.http.routers.ghassen-io-redirect.rule=(Host(`ghassen.io`) || Host(`www.ghassen.io`))"
       - "traefik.http.routers.ghassen-io-redirect.entrypoints=web"
       - "traefik.http.routers.ghassen-io-redirect.middlewares=to-https"
       - "traefik.http.middlewares.to-https.redirectscheme.scheme=https"
