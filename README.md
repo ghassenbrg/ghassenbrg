@@ -98,23 +98,13 @@
 
 ---
 
-## 🤝 Let’s Collaborate
-
-I’m open to:
-- Backend-heavy projects (FinTech/InsurTech, payments, mandate management, pricing engines)
-- API/platform engineering, auth/SSO integrations, legacy modernization, and DevOps enablement
-
-> If you’d like to discuss a project or role, ping me on <a href="mailto:ghassen.brg16@gmail.com">email</a> or <a href="https://www.linkedin.com/in/ghassenbrg" target="_blank">LinkedIn</a>.
-
----
-
-## 📈 GitHub Stats (optional)
+## 📈 GitHub Stats
 
 <p>
-  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=<ghassenbrg>&layout=compact" />
+  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ghassenbrg&layout=compact" />
 </p>
 <p>
-  <img alt="Ghassen's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=<ghassenbrg>&show_icons=true&count_private=true" />
+  <img alt="Ghassen's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ghassenbrg&show_icons=true&count_private=true" />
 </p>
 
 > Replace `<ghassenbrg>` above with your actual username.
