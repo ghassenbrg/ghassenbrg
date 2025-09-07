@@ -1,71 +1,133 @@
+<!-- Profile Banner -->
+<p align="center">
+  <a href="https://ghassen.io" target="_blank" rel="noreferrer">
+    <img src="https://media.licdn.com/dms/image/v2/D4D16AQESviX_v_tLew/profile-displaybackgroundimage-shrink_350_1400/B4DZkkNmteJgAY-/0/1757249171023?e=1759968000&v=beta&t=C1akEAIp92cM7Xz6lrB_xd8C1i0s6LFLa7x_fzfTLq4" alt="Ghassen Bargougui — Java Full-Stack Engineer" width="100%" />
+  </a>
+</p>
 
-# 👋 Hey there! I'm Ghassen Bargougui 👨‍💻
+<h1 align="center">Hi, I'm Ghassen Bargougui 👋</h1>
 
-🌟 **Full-Stack & Backend Software Engineer | Java Specialist** 🌟
+<p align="center">
+  <b>Java Backend & Full-Stack Engineer</b> — Spring Boot • Microservices • Angular • Banking & Insurance
+</p>
+
+<p align="center">
+  <a href="mailto:ghassen.brg16@gmail.com">Email</a> ·
+  <a href="https://ghassen.io" target="_blank">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/ghassenbrg" target="_blank">LinkedIn</a>
+</p>
+
+---
 
 ## 🚀 About Me
-Experienced Software Engineer with over 5 years specializing in full-stack and backend development. Passionate about crafting scalable, high-performance applications with clean architecture, focusing on Java, Spring Boot, and Angular. Constant learner driven by solving complex challenges!
 
-📍 **Based in Luxembourg City, Luxembourg**
+- 5+ years building secure, scalable backends and enterprise web apps (banking & insurance).
+- Oracle Certified Professional, **Java SE 11**.
+- Comfortable across the stack: **Spring Boot**, **Hibernate/JPA**, **REST APIs**, **Angular**, **PostgreSQL/Oracle**.
+- DevOps-minded: **Jenkins**, **GitLab CI/CD**, **Docker**, **SonarQube**, **AWS**, **Linux**.
+- Languages: **Arabic (native)** · **English (fluent)** · **French (fluent)** · **Japanese (basic)**
 
----
-
-## 🛠️ Technical Stack
-
-**Backend & Full-Stack:**  
-`Java` | `Spring Boot` | `Angular` | `Hibernate` | `Java EE` | `RESTful APIs` | `Microservices` | `ActiveMQ` | `RxJS` | `NgRx`
-
-**Databases:**  
-`PostgreSQL` | `MySQL` | `Oracle (PL/SQL)` | `MongoDB`
-
-**DevOps & CI/CD:**  
-`Docker` | `Jenkins` | `GitLab CI/CD` | `AWS` | `Nginx` | `WildFly` | `Tomcat` | `Linux`
-
-**Security & Authentication:**  
-`Keycloak (OAuth2, OIDC, JWT)`
-
-**Testing & Quality:**  
-`JUnit` | `Mockito` | `SonarQube` | `Integration Testing`
-
-**Frontend Technologies:**  
-`Angular` | `TypeScript` | `JavaScript` | `HTML5` | `CSS3` | `Bootstrap` | `PrimeNG`
+> I care about clean architecture, testability, automation, and measurable performance gains.
 
 ---
 
-## 🎯 Professional Experience Highlights
+## 💼 Current & Recent Work
 
-- **Software Engineer @ Sogeti (Feb 2025 – Present)**
-  - Technical training, backend development, DevOps automation, and cloud-native architectures.
+- **Software Engineer @ Sogeti (BGL BNP Paribas, Luxembourg)** — _Feb 2025 → Present_  
+  Spring Boot + Angular apps for internal banking; security, performance, CI/CD, and code quality with SonarQube.
 
-- **Java Full-Stack Developer @ CBTW (Sept 2024 – Jan 2025)**
-  - Developed scalable enterprise web applications with Spring Boot & Angular.
-  - Refactored monolithic applications into microservices, enhancing scalability.
-  - Automated deployments with Jenkins and Docker.
+- **Java Full-Stack Developer @ CBTW, Luxembourg** — _Sept 2024 → Jan 2025_  
+  Spring Boot & Angular; API performance, microservice refactors, Jenkins + Docker automation.
 
-- **Software Engineer @ VERMEG (Oct 2019 – Aug 2024)**
-  - Led backend development for high-traffic financial and insurance applications.
-  - Optimized transactional APIs, reducing response time by 50%.
-  - Enhanced security with Keycloak-based authentication.
-  - Implemented efficient multi-threaded batch processes.
+- **Software Engineer @ VERMEG (Banking & Insurance), Tunisia** — _Oct 2019 → Aug 2024_  
+  High-volume transactional APIs, Keycloak SSO/RBAC, ActiveMQ bulk workflows, query tuning & caching.
 
 ---
 
-## 🏅 Certifications
-- **Oracle Certified Professional**: Java SE 11 Developer [Badge](http://bit.ly/ocp11gb)
+## 🧩 Selected Projects (domain work)
+
+- **Mandate Management (BGL BNP Paribas)** — Spring Boot (incl. batch), Angular Material, SonarQube, Jenkins.  
+  End-to-end mandate features within Agile tribe/squad; robust tests and automated pipelines.
+
+- **SalesFlow (Lead Dev)** — Migration to **Camunda BPM**, REST microservices, multi-threaded batch.  
+  Drove architecture shift and throughput optimizations.
+
+- **PackManager** — Config platform for insurance products.  
+  Modeled domain (UML), designed REST APIs, reduced legacy debt and improved response times with JProfiler.
+
+- **Solife Digital & Generali Portal** — BPMN workflows, **Keycloak** SSO, Angular UX improvements.
+
+- **Magikforms** — High-volume document processing microservices with **ActiveMQ**; +40% transaction speed.
 
 ---
 
-## 🌐 Languages
-- 🇺🇸 **English** – Fluent
-- 🇫🇷 **French** – Fluent
-- 🇹🇳 **Arabic** – Native
-- 🇯🇵 **Japanese** – Basic Proficiency
+## 🛠️ Tech Stack
+
+**Core**
+- Java · Spring Boot · Spring Cloud · Hibernate/JPA · REST · OpenAPI/Swagger · JUnit
+
+**Frontend**
+- Angular · TypeScript · Angular Material · PrimeNG · HTML5/CSS3
+
+**Data**
+- PostgreSQL · Oracle (PL/SQL) · MySQL · MongoDB
+
+**Integration & Messaging**
+- ActiveMQ · BPM (Camunda)
+
+**DevOps & Quality**
+- Docker · Jenkins · GitLab CI/CD · Maven · SonarQube · Nginx · WildFly · Tomcat · AWS · Linux
+
+**Security**
+- Keycloak (OAuth2/OIDC/JWT) · RBAC · Linux server hardening
 
 ---
 
-## 📫 Let's Connect
-- 📧 [ghassen.brg16@gmail.com](mailto:ghassen.brg16@gmail.com)
-- 💼 [LinkedIn](https://linkedin.com/in/ghassenbrg)
-- 📂 [GitHub](https://github.com/ghassenbrg)
+## ✅ Certifications
 
-✨ **Thanks for visiting my profile! Let's connect and build something remarkable!** ✨
+- **Oracle Certified Professional: Java SE 11 Developer** (2022)
+
+---
+
+## 📌 What I’m Focusing On
+
+- Designing resilient microservices with clear bounded contexts and contract-first APIs.  
+- Performance profiling (JProfiler), SQL tuning, caching strategies.  
+- CI/CD pipelines that enforce quality gates and security checks.  
+- Clean testing layers (unit, slice, integration) and pragmatic observability.
+
+---
+
+## 🤝 Let’s Collaborate
+
+I’m open to:
+- Backend-heavy projects (FinTech/InsurTech, payments, mandate management, pricing engines)
+- API/platform engineering, auth/SSO integrations, legacy modernization, and DevOps enablement
+
+> If you’d like to discuss a project or role, ping me on <a href="mailto:ghassen.brg16@gmail.com">email</a> or <a href="https://www.linkedin.com/in/ghassenbrg" target="_blank">LinkedIn</a>.
+
+---
+
+## 📈 GitHub Stats (optional)
+
+<p>
+  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=<your-github-username>&layout=compact" />
+</p>
+<p>
+  <img alt="Ghassen's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=<your-github-username>&show_icons=true&count_private=true" />
+</p>
+
+> Replace `<your-github-username>` above with your actual username.
+
+---
+
+## 🔗 Quick Links
+
+- Portfolio: **https://ghassen.io**
+- LinkedIn: **https://www.linkedin.com/in/ghassenbrg**
+- Email: **ghassen.brg16@gmail.com**
+- Phone: **+352 661 120 421**
+
+---
+
+<p align="center">Thanks for visiting! 🙌</p>
