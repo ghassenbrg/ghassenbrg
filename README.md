@@ -111,13 +111,13 @@ I’m open to:
 ## 📈 GitHub Stats (optional)
 
 <p>
-  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=<your-github-username>&layout=compact" />
+  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=<ghassenbrg>&layout=compact" />
 </p>
 <p>
-  <img alt="Ghassen's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=<your-github-username>&show_icons=true&count_private=true" />
+  <img alt="Ghassen's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=<ghassenbrg>&show_icons=true&count_private=true" />
 </p>
 
-> Replace `<your-github-username>` above with your actual username.
+> Replace `<ghassenbrg>` above with your actual username.
 
 ---
 
@@ -126,7 +126,6 @@ I’m open to:
 - Portfolio: **https://ghassen.io**
 - LinkedIn: **https://www.linkedin.com/in/ghassenbrg**
 - Email: **ghassen.brg16@gmail.com**
-- Phone: **+352 661 120 421**
 
 ---
 
