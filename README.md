@@ -1,7 +1,7 @@
 <!-- Profile Banner -->
 <p align="center">
   <a href="https://ghassen.io" target="_blank" rel="noreferrer">
-    <img src="https://media.licdn.com/dms/image/v2/D4D16AQESviX_v_tLew/profile-displaybackgroundimage-shrink_350_1400/B4DZkkNmteJgAY-/0/1757249171023?e=1759968000&v=beta&t=C1akEAIp92cM7Xz6lrB_xd8C1i0s6LFLa7x_fzfTLq4" alt="Ghassen Bargougui — Java Full-Stack Engineer" width="100%" />
+    <img src="https://i.postimg.cc/52hm8Ch9/linkedin-banner.png" alt="Ghassen Bargougui — Java Full-Stack Engineer" width="100%" />
   </a>
 </p>
 
