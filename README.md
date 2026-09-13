@@ -1,113 +1,76 @@
-<!-- Profile Banner -->
 <p align="center">
   <a href="https://ghassen.io" target="_blank" rel="noreferrer">
-    <img src="https://i.postimg.cc/52hm8Ch9/linkedin-banner.png" alt="Ghassen Bargougui — Java Full-Stack Engineer" width="100%" />
+    <img src="./assets/profile-banner.png" alt="Abstract distributed-systems architecture in midnight blue" width="100%" />
   </a>
 </p>
 
-<h1 align="center">Hey there 👋, I'm Ghassen Bargougui</h1>
+<h1 align="center">Hi, I’m Ghassen Bargougui 👋</h1>
 
 <p align="center">
-  <b>💻 Java Backend & Full-Stack Engineer</b>  
-  <i>Spring Boot • Microservices • Angular • Banking & Insurance</i>
+  <strong>Java Backend & Full-Stack Engineer</strong><br />
+  Building secure, resilient software for banking and insurance.
 </p>
 
 <p align="center">
-  <a href="mailto:ghassen.brg16@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://ghassen.io" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/ghassenbrg" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  <a href="mailto:ghassen.brg16@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Ghassen" /></a>
+  <a href="https://ghassen.io" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/ghassenbrg" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
----
+## About
 
-## 🚀 About Me
+I’m a Java engineer with 5+ years of experience delivering dependable, high-volume applications. I enjoy turning complex domain requirements into clean services, well-tested APIs, and practical developer workflows.
 
-- 🔹 5+ years building **secure, scalable backends** and enterprise web apps (banking & insurance).  
-- 🔹 Oracle Certified Professional, **Java SE 11** ☕.  
-- 🔹 Comfortable across the stack: **Spring Boot**, **Hibernate**, **REST APIs**, **Angular**, **PostgreSQL/Oracle**.  
-- 🔹 DevOps-oriented: **Jenkins**, **GitLab CI/CD**, **Docker**, **SonarQube**, **AWS**, **Linux**.  
-- 🔹 Languages: 🇹🇳 Arabic (native) · 🇬🇧 English (fluent) · 🇫🇷 French (fluent) · 🇯🇵 Japanese (basic).  
+- **Backend:** Spring Boot, Hibernate, REST APIs, microservices, messaging
+- **Full stack:** Angular, TypeScript, HTML/CSS
+- **Data & platform:** PostgreSQL, Oracle, Docker, Jenkins, GitLab CI/CD, AWS, Linux
+- **Domains:** banking, insurance, workflow automation, document processing
+- **Languages:** Arabic (native), English (fluent), French (fluent), Japanese (basic)
 
-> ⚡ Passionate about clean architecture, testability, automation & measurable performance gains.
+> Clean architecture, testability, automation, and measurable performance are the through-lines in my work.
 
----
+## Experience
 
-## 💼 Experience
+| Role | Focus |
+| --- | --- |
+| **Software Engineer · Sogeti / BGL BNP Paribas, Luxembourg**<br />Feb 2025 — Present | Spring Boot and Angular applications for internal banking, with security, CI/CD, and SonarQube quality practices. |
+| **Java Full-Stack Developer · CBTW, Luxembourg**<br />Sep 2024 — Jan 2025 | API performance tuning, microservice refactoring, and Jenkins/Docker automation. |
+| **Software Engineer · VERMEG, Tunisia**<br />Oct 2019 — Aug 2024 | High-volume transactional APIs, Keycloak SSO, ActiveMQ workflows, and SQL optimization for banking and insurance. |
 
-- **Software Engineer @ Sogeti (BGL BNP Paribas, Luxembourg)** — _Feb 2025 → Present_  
-  🏦 Spring Boot + Angular apps for internal banking; security, CI/CD, code quality with SonarQube.
+## Selected work
 
-- **Java Full-Stack Developer @ CBTW, Luxembourg** — _Sept 2024 → Jan 2025_  
-  ⚙️ API performance tuning, microservices refactors, Jenkins + Docker automation.
+- **Mandate Management** — Delivered full-stack mandate features with CI/CD and code-quality gates for BGL BNP Paribas.
+- **SalesFlow** — Moved workflows to Camunda BPM, evolved REST microservices, and optimized multi-threaded batch processing.
+- **PackManager** — Modernized an insurance-product configuration platform, reducing legacy debt and improving responsiveness.
+- **Solife Digital & Generali Portal** — Built BPMN workflows, integrated Keycloak SSO, and improved the user experience.
+- **Magikforms** — Developed document-processing microservices that increased transaction throughput by 40%.
 
-- **Software Engineer @ VERMEG (Banking & Insurance), Tunisia** — _Oct 2019 → Aug 2024_  
-  📊 High-volume transactional APIs, Keycloak SSO, ActiveMQ workflows, SQL optimizations.
-
----
-
-## 🧩 Key Projects
-
-- 🔐 **Mandate Management (BGL BNP Paribas)** — Full-stack mandate features, CI/CD, quality gates.  
-- ⚡ **SalesFlow** — Migrated to **Camunda BPM**, REST microservices, optimized multi-threaded batch.  
-- 📦 **PackManager** — Insurance product config platform; reduced legacy debt, boosted response times.  
-- 🌐 **Solife Digital & Generali Portal** — BPMN workflows, **Keycloak SSO**, UX improvements.  
-- 📑 **Magikforms** — Microservices for high-volume document processing; +40% transaction throughput.  
-
----
-
-## 🛠️ Tech Stack
+## Toolkit
 
 <p align="center">
-  <!-- Core -->
-  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven" /><br/>
-  <!-- Frontend -->
-  <img src="https://skillicons.dev/icons?i=angular,ts,html,css" /><br/>
-  <!-- Data -->
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb" /><br/>
-  <!-- DevOps -->
-  <img src="https://skillicons.dev/icons?i=docker,jenkins,git,linux,aws" />
+  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,angular,ts,postgres,mysql,mongodb,docker,jenkins,git,linux,aws" alt="Java, Spring, Hibernate, Maven, Angular, TypeScript, PostgreSQL, MySQL, MongoDB, Docker, Jenkins, Git, Linux, and AWS" />
 </p>
 
----
+## Currently exploring
 
-## 🎓 Certifications
+- Designing resilient microservices around clear bounded contexts
+- Performance profiling, SQL tuning, caching, and concurrency
+- CI/CD pipelines with quality gates and security scans
+- Pragmatic automated testing: unit, slice, and integration tests
 
-- 🏅 **Oracle Certified Professional: Java SE 11 Developer** (2022)
+## Certification
 
----
+🏅 **Oracle Certified Professional: Java SE 11 Developer** (2022)
 
-## 📌 Currently Focusing On
-
-- 🛠 Designing resilient **microservices** with clear bounded contexts.  
-- 📊 Performance profiling (**JProfiler**), SQL tuning, caching strategies.  
-- 🔄 CI/CD pipelines with **quality gates** & security scans.  
-- ✅ Pragmatic testing: unit, slice, integration.  
-
----
-
-## 📈 GitHub Stats
+## GitHub at a glance
 
 <p align="center">
-  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ghassenbrg&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ghassenbrg&show_icons=true&theme=tokyonight&count_private=true" alt="Ghassen's GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ghassenbrg&layout=compact&theme=tokyonight" alt="Ghassen's most-used languages" />
 </p>
+
 <p align="center">
-  <img alt="Ghassen's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ghassenbrg&show_icons=true&theme=tokyonight&count_private=true" />
+  <a href="https://ghassen.io">ghassen.io</a> ·
+  <a href="https://www.linkedin.com/in/ghassenbrg">LinkedIn</a> ·
+  <a href="mailto:ghassen.brg16@gmail.com">Email</a>
 </p>
-
----
-
-## 🔗 Quick Links
-
-- 🌍 Portfolio: [ghassen.io](https://ghassen.io)  
-- 💼 LinkedIn: [linkedin.com/in/ghassenbrg](https://www.linkedin.com/in/ghassenbrg)  
-- 📧 Email: [ghassen.brg16@gmail.com](mailto:ghassen.brg16@gmail.com)  
-
----
-
-<p align="center">✨ Thanks for visiting! Let’s connect 🤝</p>
