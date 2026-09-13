@@ -58,11 +58,10 @@ I’m currently part of Rakuten Card’s Technology Incubation Team, modernizing
 
 ## Selected projects
 
-- **[Orbit Ways](https://ghassen.io/orbitways)** — Real-time multiplayer board game with Spring Boot, WebSocket, Angular, Redis, Docker, and Nginx.
-- **SalesFlow** — Camunda BPM workflow automation, REST APIs, and multi-threaded batch processing; reduced manual processes by 30%.
-- **PackManager** — Insurance-product configuration platform; improved maintainability and runtime memory usage with JProfiler.
-- **Solife Digital & Generali Portal** — Secure insurance-broker application with Angular, Java, Keycloak SSO, and BPMN workflows.
-- **Magikforms** — High-volume insurance document-processing system with ActiveMQ, Keycloak, and Java performance tuning.
+- **[SubMate](https://github.com/ghassenbrg/SubMate)** — Privacy-first browser extension for synchronized, on-device subtitle translation across Netflix, TVer, and Prime Video.
+- **[Slide Agent](https://github.com/ghassenbrg/slide-agent)** — AI-powered presentation tooling that creates professional, editable PowerPoint decks from prompts, Markdown, codebases, or documents.
+- **[Pockito](https://github.com/ghassenbrg/pockito)** — Personal budget-management application with dedicated backend and frontend projects.
+- **[Traffic Forward](https://github.com/ghassenbrg/traffic-forward)** — Spring Boot / Java 25 reverse-forwarding service for lightweight API routing, request auditing, and path rewriting.
 
 ## Education & certification
 
