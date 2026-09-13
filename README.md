@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ghassen.io" target="_blank" rel="noreferrer">
-    <img src="./assets/profile-banner.png" alt="Abstract distributed-systems architecture in midnight blue" width="100%" />
+    <img src="./assets/profile-banner.png" alt="Amber-lit developer workspace with interconnected software services" width="100%" />
   </a>
 </p>
 
