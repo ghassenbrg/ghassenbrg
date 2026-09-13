@@ -46,14 +46,8 @@ I’m an Application Engineer in Fukuoka, Japan, with a bias for systems that ar
   <img src="https://skillicons.dev/icons?i=java,spring,angular,vue,nuxtjs,ts,nodejs,kafka,kubernetes,gcp,githubactions,docker,postgres,mysql,mongodb,git,linux" alt="Java, Spring, Angular, Vue, Nuxt, TypeScript, Node.js, Kafka, Kubernetes, GCP, GitHub Actions, Docker, PostgreSQL, MySQL, MongoDB, Git, and Linux" />
 </p>
 
-## GitHub at a glance
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ghassenbrg&show_icons=true&theme=tokyonight&count_private=true" alt="Ghassen's GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ghassenbrg&layout=compact&theme=tokyonight" alt="Ghassen's most-used languages" />
-</p>
-
-<p align="center">
+  <a href="https://github.com/ghassenbrg?tab=repositories">Explore my repositories</a> ·
   <a href="https://ghassen.io">ghassen.io</a> ·
   <a href="https://www.linkedin.com/in/ghassenbrg">LinkedIn</a> ·
   <a href="mailto:ghassen.brg16@gmail.com">Email</a>
