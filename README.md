@@ -4,11 +4,11 @@
   </a>
 </p>
 
-<h1 align="center">Hi, I’m Ghassen Bargougui 👋</h1>
+<h1 align="center">Ghassen Bargougui</h1>
 
 <p align="center">
-  <strong>Java Backend & Full-Stack Engineer</strong><br />
-  Building secure, resilient software for banking and insurance.
+  <code>Software Engineer · Java Full-Stack Developer</code><br />
+  Based in Luxembourg — building robust systems and thoughtful web experiences.
 </p>
 
 <p align="center">
@@ -19,15 +19,18 @@
 
 ## About
 
-I’m a Java engineer with 5+ years of experience delivering dependable, high-volume applications. I enjoy turning complex domain requirements into clean services, well-tested APIs, and practical developer workflows.
+I’m a full-stack software engineer with 5+ years of experience building Java systems and Angular interfaces. I enjoy turning complex requirements into maintainable software: resilient backends, intuitive user journeys, and developer workflows that make delivery predictable.
 
-- **Backend:** Spring Boot, Hibernate, REST APIs, microservices, messaging
-- **Full stack:** Angular, TypeScript, HTML/CSS
-- **Data & platform:** PostgreSQL, Oracle, Docker, Jenkins, GitLab CI/CD, AWS, Linux
-- **Domains:** banking, insurance, workflow automation, document processing
-- **Languages:** Arabic (native), English (fluent), French (fluent), Japanese (basic)
+```text
+focus = clean architecture · API design · performance · automation
+```
 
-> Clean architecture, testability, automation, and measurable performance are the through-lines in my work.
+| Building with | Working on |
+| --- | --- |
+| Java, Spring Boot, Hibernate, Angular, TypeScript | REST APIs, microservices, workflows, secure integrations |
+| PostgreSQL, Oracle, MySQL, MongoDB | Docker, Jenkins, GitLab CI/CD, AWS, Linux, SonarQube |
+
+I work across Arabic, English, and French; I also speak basic Japanese.
 
 ## Experience
 
@@ -48,15 +51,15 @@ I’m a Java engineer with 5+ years of experience delivering dependable, high-vo
 ## Toolkit
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,angular,ts,postgres,mysql,mongodb,docker,jenkins,git,linux,aws" alt="Java, Spring, Hibernate, Maven, Angular, TypeScript, PostgreSQL, MySQL, MongoDB, Docker, Jenkins, Git, Linux, and AWS" />
+  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,angular,ts,nodejs,postgres,mysql,mongodb,docker,jenkins,git,linux,aws" alt="Java, Spring, Hibernate, Maven, Angular, TypeScript, Node.js, PostgreSQL, MySQL, MongoDB, Docker, Jenkins, Git, Linux, and AWS" />
 </p>
 
-## Currently exploring
+## What I care about
 
-- Designing resilient microservices around clear bounded contexts
+- Clear service boundaries and APIs that are easy to evolve
 - Performance profiling, SQL tuning, caching, and concurrency
-- CI/CD pipelines with quality gates and security scans
-- Pragmatic automated testing: unit, slice, and integration tests
+- CI/CD pipelines with quality and security gates
+- Practical test coverage: unit, slice, and integration tests
 
 ## Certification
 
