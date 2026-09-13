@@ -1,69 +1,72 @@
 <p align="center">
   <a href="https://ghassen.io" target="_blank" rel="noreferrer">
-    <img src="./assets/profile-banner.png" alt="Amber-lit developer workspace with interconnected software services" width="100%" />
+    <img src="./assets/profile-banner.png" alt="Ghassen Bargougui — Application Engineer in Fukuoka, Japan, specializing in Java, Kubernetes, and GCP" width="100%" />
   </a>
 </p>
 
 <h1 align="center">Ghassen Bargougui</h1>
 
 <p align="center">
-  <code>Software Engineer · Java Full-Stack Developer</code><br />
-  Based in Luxembourg — building robust systems and thoughtful web experiences.
+  <strong>Application Engineer @ Rakuten Card</strong><br />
+  Fukuoka, Japan · Java · Cloud Platforms · Full-Stack Systems
 </p>
 
 <p align="center">
   <a href="mailto:ghassen.brg16@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Ghassen" /></a>
-  <a href="https://ghassen.io" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://ghassen.io" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/ghassenbrg" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 ## About
 
-I’m a full-stack software engineer with 5+ years of experience building Java systems and Angular interfaces. I enjoy turning complex requirements into maintainable software: resilient backends, intuitive user journeys, and developer workflows that make delivery predictable.
+I’m an Application Engineer with 6+ years of experience designing and delivering backend and full-stack systems for banking, insurance, and card-payment platforms.
 
-```text
-focus = clean architecture · API design · performance · automation
-```
+I’m currently part of Rakuten Card’s Technology Incubation Team, modernizing APIs and hybrid-cloud infrastructure for services used by **25M+ members** in Japan. My work spans application development, Kubernetes delivery, production troubleshooting, and collaboration across development, CI/CD, infrastructure, and security teams.
 
-| Building with | Working on |
+| 6+ years | 25M+ members | 50% faster APIs | 4 countries |
+| --- | --- | --- | --- |
+| Enterprise engineering | Rakuten Card platforms | Through tuning & caching | International experience |
+
+## What I work with
+
+| Area | Tools & strengths |
 | --- | --- |
-| Java, Spring Boot, Hibernate, Angular, TypeScript | REST APIs, microservices, workflows, secure integrations |
-| PostgreSQL, Oracle, MySQL, MongoDB | Docker, Jenkins, GitLab CI/CD, AWS, Linux, SonarQube |
+| **Backend & APIs** | Java, Spring Boot, Helidon, MicroProfile, Hibernate, JPA, RESTful APIs, OpenAPI |
+| **Cloud & delivery** | Kubernetes, GCP, GKE, GitHub Actions, Docker, GitLab CI/CD, Jenkins |
+| **Systems** | Kafka, ActiveMQ, Spring Cloud, structured logging, hybrid-cloud migration |
+| **Full stack** | Angular, Vue, Nuxt, TypeScript, Node.js, HTML/CSS |
+| **Quality & security** | JUnit, Mockito, integration testing, SonarQube, Keycloak, OAuth2/OIDC/JWT |
 
-I work across Arabic, English, and French; I also speak basic Japanese.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,angular,vue,nuxtjs,ts,nodejs,kafka,kubernetes,gcp,githubactions,docker,postgres,mysql,mongodb,git,linux" alt="Java, Spring, Angular, Vue, Nuxt, TypeScript, Node.js, Kafka, Kubernetes, GCP, GitHub Actions, Docker, PostgreSQL, MySQL, MongoDB, Git, and Linux" />
+</p>
 
 ## Experience
 
-| Role | Focus |
+| Role | Highlights |
 | --- | --- |
-| **Software Engineer · Sogeti / BGL BNP Paribas, Luxembourg**<br />Feb 2025 — Present | Spring Boot and Angular applications for internal banking, with security, CI/CD, and SonarQube quality practices. |
-| **Java Full-Stack Developer · CBTW, Luxembourg**<br />Sep 2024 — Jan 2025 | API performance tuning, microservice refactoring, and Jenkins/Docker automation. |
-| **Software Engineer · VERMEG, Tunisia**<br />Oct 2019 — Aug 2024 | High-volume transactional APIs, Keycloak SSO, ActiveMQ workflows, and SQL optimization for banking and insurance. |
+| **Application Engineer · Rakuten Card**<br />Fukuoka, Japan · Dec 2025 — Present | Hybrid-cloud migration and API modernization; Kubernetes/GKE deployment design; GitHub Actions CI/CD; JDK 25 and Helidon 4.3 upgrade; structured logging for Cloud Logging. |
+| **Software Engineer · Sogeti (BGL BNP Paribas)**<br />Luxembourg · Feb 2025 — Nov 2025 | Secure internal banking applications with Java, Spring Boot, Angular, PostgreSQL/Oracle, Jenkins, and SonarQube. |
+| **Java Full-Stack Developer · CBTW**<br />Luxembourg · Sep 2024 — Jan 2025 | Enterprise Java and Angular applications, high-performance APIs, microservices, Jenkins, and Docker. |
+| **Software Engineer · VERMEG**<br />Tunis, Tunisia · Oct 2019 — Aug 2024 | High-volume financial and insurance APIs, Keycloak security, ActiveMQ automation, CI/CD, and performance optimization. |
 
-## Selected work
+## Selected projects
 
-- **Mandate Management** — Delivered full-stack mandate features with CI/CD and code-quality gates for BGL BNP Paribas.
-- **SalesFlow** — Moved workflows to Camunda BPM, evolved REST microservices, and optimized multi-threaded batch processing.
-- **PackManager** — Modernized an insurance-product configuration platform, reducing legacy debt and improving responsiveness.
-- **Solife Digital & Generali Portal** — Built BPMN workflows, integrated Keycloak SSO, and improved the user experience.
-- **Magikforms** — Developed document-processing microservices that increased transaction throughput by 40%.
+- **[Orbit Ways](https://ghassen.io/orbitways)** — Real-time multiplayer board game with Spring Boot, WebSocket, Angular, Redis, Docker, and Nginx.
+- **SalesFlow** — Camunda BPM workflow automation, REST APIs, and multi-threaded batch processing; reduced manual processes by 30%.
+- **PackManager** — Insurance-product configuration platform; improved maintainability and runtime memory usage with JProfiler.
+- **Solife Digital & Generali Portal** — Secure insurance-broker application with Angular, Java, Keycloak SSO, and BPMN workflows.
+- **Magikforms** — High-volume insurance document-processing system with ActiveMQ, Keycloak, and Java performance tuning.
 
-## Toolkit
+## Education & certification
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,angular,ts,nodejs,postgres,mysql,mongodb,docker,jenkins,git,linux,aws" alt="Java, Spring, Hibernate, Maven, Angular, TypeScript, Node.js, PostgreSQL, MySQL, MongoDB, Docker, Jenkins, Git, Linux, and AWS" />
-</p>
+- **Engineer’s Degree in Software Engineering** — ESPRIT, Tunis (2019–2023)
+- **Bachelor’s Degree in Computer Science** — ISIMM, Monastir (2015–2019)
+- 🏅 **Oracle Certified Professional, Java SE 11 Developer** — [Oracle, September 2022](https://bit.ly/ocp11gb)
 
-## What I care about
+## Languages
 
-- Clear service boundaries and APIs that are easy to evolve
-- Performance profiling, SQL tuning, caching, and concurrency
-- CI/CD pipelines with quality and security gates
-- Practical test coverage: unit, slice, and integration tests
-
-## Certification
-
-🏅 **Oracle Certified Professional: Java SE 11 Developer** (2022)
+Arabic (native) · English (fluent) · French (fluent) · Japanese (basic proficiency)
 
 ## GitHub at a glance
 
