@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ghassen.io" target="_blank" rel="noreferrer">
-    <img src="./assets/profile-banner.png" alt="Ghassen Bargougui — Application Engineer in Fukuoka, Japan, specializing in Java, Kubernetes, and GCP" width="100%" />
+    <img src="./assets/profile-banner.png" alt="Ghassen Bargougui — Application Engineer in Fukuoka, Japan, focused on backend engineering, platform engineering, and AI" width="100%" />
   </a>
 </p>
 
@@ -8,7 +8,7 @@
 
 <p align="center">
   <strong>Application Engineer @ Rakuten Card</strong><br />
-  Fukuoka, Japan · Java · Cloud Platforms · Full-Stack Systems
+  Fukuoka, Japan · Backend Engineering · Platform Engineering · AI
 </p>
 
 <p align="center">
@@ -19,15 +19,21 @@
 
 ## About
 
-I’m an Application Engineer with 6+ years of experience designing and delivering backend and full-stack systems for banking, insurance, and card-payment platforms.
+I’m an Application Engineer with 6+ years of experience designing and delivering backend, platform, and full-stack systems for banking, insurance, and card-payment platforms.
 
-I’m currently part of Rakuten Card’s Technology Incubation Team, modernizing APIs and hybrid-cloud infrastructure for services used by **25M+ members** in Japan. My work spans application development, Kubernetes delivery, production troubleshooting, and collaboration across development, CI/CD, infrastructure, and security teams.
+I’m currently part of Rakuten Card’s Technology Incubation Team, modernizing APIs and hybrid-cloud infrastructure for services used by **25M+ members** in Japan. My work spans backend delivery, platform engineering, AI-enabled systems, production troubleshooting, and collaboration across development, CI/CD, infrastructure, and security teams.
 
 | 6+ years | 25M+ members | 50% faster APIs | 4 countries |
 | --- | --- | --- | --- |
 | Enterprise engineering | Rakuten Card platforms | Through tuning & caching | International experience |
 
-## What I work with
+## Areas of focus
+
+- **Backend engineering** — dependable APIs, distributed systems, and data-intensive applications
+- **Platform engineering** — reliable developer platforms, deployment automation, observability, and hybrid-cloud delivery
+- **AI-enabled systems** — practical automation and intelligent capabilities integrated into real products
+
+## Technical toolbox
 
 | Area | Tools & strengths |
 | --- | --- |
