@@ -4,74 +4,47 @@
   </a>
 </p>
 
-<h1 align="center">Ghassen Bargougui</h1>
+<h1 align="center">Hey, I’m Ghassen 👋</h1>
 
 <p align="center">
-  <strong>Application Engineer @ Rakuten Card</strong><br />
-  Fukuoka, Japan · Backend Engineering · Platform Engineering · AI
+  <code>Backend Engineering</code> · <code>Platform Engineering</code> · <code>AI-enabled Products</code>
 </p>
 
 <p align="center">
-  <a href="mailto:ghassen.brg16@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Ghassen" /></a>
+  I build reliable systems, useful developer tooling, and products that make complex work feel simpler.
+</p>
+
+<p align="center">
   <a href="https://ghassen.io" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/ghassenbrg" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:ghassen.brg16@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Ghassen" /></a>
 </p>
 
-## About
+## What I’m building
 
-I’m an Application Engineer with 6+ years of experience designing and delivering backend, platform, and full-stack systems for banking, insurance, and card-payment platforms.
+I’m an Application Engineer in Fukuoka, Japan, with a bias for systems that are reliable in production and pleasant to work on. My interests sit at the intersection of backend services, developer platforms, cloud automation, and practical AI.
 
-I’m currently part of Rakuten Card’s Technology Incubation Team, modernizing APIs and hybrid-cloud infrastructure for services used by **25M+ members** in Japan. My work spans backend delivery, platform engineering, AI-enabled systems, production troubleshooting, and collaboration across development, CI/CD, infrastructure, and security teams.
+## Featured projects
 
-| 6+ years | 25M+ members | 50% faster APIs | 4 countries |
-| --- | --- | --- | --- |
-| Enterprise engineering | Rakuten Card platforms | Through tuning & caching | International experience |
-
-## Areas of focus
-
-- **Backend engineering** — dependable APIs, distributed systems, and data-intensive applications
-- **Platform engineering** — reliable developer platforms, deployment automation, observability, and hybrid-cloud delivery
-- **AI-enabled systems** — practical automation and intelligent capabilities integrated into real products
-
-## Technical toolbox
-
-| Area | Tools & strengths |
+| Project | What it is |
 | --- | --- |
-| **Backend & APIs** | Java, Spring Boot, Helidon, MicroProfile, Hibernate, JPA, RESTful APIs, OpenAPI |
-| **Cloud & delivery** | Kubernetes, GCP, GKE, GitHub Actions, Docker, GitLab CI/CD, Jenkins |
-| **Systems** | Kafka, ActiveMQ, Spring Cloud, structured logging, hybrid-cloud migration |
-| **Full stack** | Angular, Vue, Nuxt, TypeScript, Node.js, HTML/CSS |
-| **Quality & security** | JUnit, Mockito, integration testing, SonarQube, Keycloak, OAuth2/OIDC/JWT |
+| **[SubMate](https://github.com/ghassenbrg/SubMate)** | Privacy-first browser extension for synchronized subtitle translation on Netflix, TVer, and Prime Video. |
+| **[Slide Agent](https://github.com/ghassenbrg/slide-agent)** | AI-powered presentation tooling that produces professional, fully editable PowerPoint decks. |
+| **[Pockito](https://github.com/ghassenbrg/pockito)** | Personal budget-management application with dedicated backend and frontend projects. |
+| **[Traffic Forward](https://github.com/ghassenbrg/traffic-forward)** | Spring Boot / Java 25 reverse-forwarding service for API routing, request auditing, and path rewriting. |
+
+## Exploring
+
+- Production-ready backend and distributed systems
+- Platform engineering, cloud automation, and observability
+- AI-assisted developer tools and product experiences
+- Open-source projects with a high bar for documentation and usability
+
+## Toolbox
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,angular,vue,nuxtjs,ts,nodejs,kafka,kubernetes,gcp,githubactions,docker,postgres,mysql,mongodb,git,linux" alt="Java, Spring, Angular, Vue, Nuxt, TypeScript, Node.js, Kafka, Kubernetes, GCP, GitHub Actions, Docker, PostgreSQL, MySQL, MongoDB, Git, and Linux" />
 </p>
-
-## Experience
-
-| Role | Highlights |
-| --- | --- |
-| **Application Engineer · Rakuten Card**<br />Fukuoka, Japan · Dec 2025 — Present | Hybrid-cloud migration and API modernization; Kubernetes/GKE deployment design; GitHub Actions CI/CD; JDK 25 and Helidon 4.3 upgrade; structured logging for Cloud Logging. |
-| **Software Engineer · Sogeti (BGL BNP Paribas)**<br />Luxembourg · Feb 2025 — Nov 2025 | Secure internal banking applications with Java, Spring Boot, Angular, PostgreSQL/Oracle, Jenkins, and SonarQube. |
-| **Java Full-Stack Developer · CBTW**<br />Luxembourg · Sep 2024 — Jan 2025 | Enterprise Java and Angular applications, high-performance APIs, microservices, Jenkins, and Docker. |
-| **Software Engineer · VERMEG**<br />Tunis, Tunisia · Oct 2019 — Aug 2024 | High-volume financial and insurance APIs, Keycloak security, ActiveMQ automation, CI/CD, and performance optimization. |
-
-## Selected projects
-
-- **[SubMate](https://github.com/ghassenbrg/SubMate)** — Privacy-first browser extension for synchronized, on-device subtitle translation across Netflix, TVer, and Prime Video.
-- **[Slide Agent](https://github.com/ghassenbrg/slide-agent)** — AI-powered presentation tooling that creates professional, editable PowerPoint decks from prompts, Markdown, codebases, or documents.
-- **[Pockito](https://github.com/ghassenbrg/pockito)** — Personal budget-management application with dedicated backend and frontend projects.
-- **[Traffic Forward](https://github.com/ghassenbrg/traffic-forward)** — Spring Boot / Java 25 reverse-forwarding service for lightweight API routing, request auditing, and path rewriting.
-
-## Education & certification
-
-- **Engineer’s Degree in Software Engineering** — ESPRIT, Tunis (2019–2023)
-- **Bachelor’s Degree in Computer Science** — ISIMM, Monastir (2015–2019)
-- 🏅 **Oracle Certified Professional, Java SE 11 Developer** — [Oracle, September 2022](https://bit.ly/ocp11gb)
-
-## Languages
-
-Arabic (native) · English (fluent) · French (fluent) · Japanese (basic proficiency)
 
 ## GitHub at a glance
 
